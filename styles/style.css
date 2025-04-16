@@ -105,8 +105,8 @@
 }
 
 .aligned-text_center {
-  margin-left: 40px;
   align-self: center;
+  margin-left: 40px;
 }
 
 .aligned-text_right {
@@ -132,10 +132,10 @@
 }
 
 .bet-button {
-  background: transparent;
   width: 256px;
   height: 51px;
   border: 1px solid white;
+  color: white;
   font-family: Raleway;
   font-weight: 500;
   font-size: 22px;
@@ -143,7 +143,7 @@
   text-align: center;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  background: transparent;
 }
 
 .lots {
@@ -168,9 +168,9 @@
 .lots__card-list-item {
   min-width: 334px;
   min-height: 596px;
-  list-style: none;
   margin-top: 30px;
   margin-bottom: 30px;
+  list-style: none;
 }
 
 .card-link {
@@ -178,14 +178,14 @@
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  position: relative;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card_type_film {
@@ -208,26 +208,27 @@
 
 .card__title {
   padding: 48px 40px 0 40px;
+  color: white;
   font-family: Raleway;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
-  text-transform: uppercase;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 3px;
-  color: white;
+  text-transform: uppercase;
 }
 
 .card__text {
+  padding: 0 40px 48px 40px;
+  color: white;
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  color: white;
-  padding: 0 40px 48px 40px;
 }
+
 .lots__look-more-link {
   padding-left: 40px;
   font-family: Raleway;
@@ -241,8 +242,8 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 155px 24px 0 24px;
   gap: 20px;
+  padding: 155px 24px 0 24px;
 }
 
 .about__column {
@@ -255,8 +256,8 @@
   align-content: center;
   width: 240px;
   height: 240px;
-  background-color: black;
   border-radius: 50%;
+  background-color: black;
 }
 
 .about__logo-image {
@@ -270,7 +271,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .about__text {
@@ -284,9 +285,9 @@
 }
 
 .footer {
-  padding: 180px 50px 82px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 180px 50px 82px 50px;
 }
 
 .footer__menu {
@@ -302,7 +303,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  text-align: center;  
+  text-align: center;
 }
 
 .footer__menu-list-item {
